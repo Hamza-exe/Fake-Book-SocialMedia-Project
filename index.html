@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web developer | Hamza Elafifi</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png?v=2" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/style.css" media="all">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="assets/scripts/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container flexbox">
+            <div class="title">
+                <h1>Fakebook</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="sign-up.html" target="_blank">Friends</a></li>
+                    <li><a id="login-button">Pages</a></li>
+                    <li><a id="login-button">Groups</a></li>
+                    <li><a id="login-button">Settings</a></li>
+                </ul>
+            </nav>
+            <div id="box">
+                <img id="pfp" src="assets/img/yeat.webp">
+            </div>
+        </div>
+    </header>
+
+    <div id="overlay">
+        <div id="popup">
+            <i id="x" class="far fa-times-circle"></i>
+            <img id="pfp1" src="assets/img/yeat.webp">
+            <h2 id="names"></h2>
+            <p id="identity"></p>
+            <p id="email"></p>
+            <p id="pages"></p>
+            <p id="groups"></p>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <main>
+            <div class="container">
+                <section id="section">
+                    <div id="post-area">
+                        <textarea id="post-text" placeholder="Whats on your mind?"></textarea>
+                        <div id="buttons">
+                            <div>
+                                <i id="img1" class="fa fa-image"></i>
+                                <input id="choose-img" type="file" onchange="uploaded()">
+                                <span id='val'></span>
+                                <span id='select'>Select File</span>
+                            </div>
+                            <input id="post" value="Post" type="button">
+                        </div>
+                    </div>
+
+                    <div id="posts">
+
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>

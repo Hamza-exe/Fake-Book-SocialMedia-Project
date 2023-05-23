@@ -1,0 +1,228 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color:  #f3f4f5;
+}
+
+#popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 9999;
+    padding: 60px 40px 40px 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #e8eaec;
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    background-color: white;
+}
+
+  
+header {
+    min-width: 100%;
+    overflow: hidden;
+    height: 70px;
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 2px #e8eaec;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+  
+  
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.title {
+    height: 56px;
+}
+
+#box{
+    width: 100px;
+}
+  
+.title h1 {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(63, 110, 238);
+    letter-spacing: .2px;
+}
+
+#overlay{
+    display: none;
+    position: fixed; /* Sit on top of the page content */
+    top: 0;
+    left: 0;
+    min-width: 100%; /* Full width (cover the whole page) */
+    height: 100vh; /* Full height (cover the whole page) */
+    background-color:rgba(0, 0, 0, .5); /* Black background with opacity */
+    z-index: 5555; /* Specify a stack order in case you're using a different order for otherheight: 100%; */
+}
+  
+#overlay.visible{
+    display: block;
+}
+
+nav {
+    text-align: right;
+    height: 56px;
+    font-size: 100%;
+}
+  
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: none;
+    list-style: none;
+}
+
+#pfp{
+    border-radius: 50%;
+    height: 50px;
+    margin-left: 50px;
+    width: 50px;
+}
+
+#pfp1{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+  
+nav ul li {
+    display: inline;
+    line-height: 56px;
+    cursor: default;
+}
+  
+nav ul li a {
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: .2px;
+    text-transform: none;
+    cursor: pointer;
+}
+  
+#popup i{
+    font-size: 20px;
+    margin-left: 100%;
+    position: absolute;
+    top: 7%;
+    right: 8%;
+}
+
+#img1{
+    position: relative;
+    top: 5%;
+    left: 8%;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+  
+nav ul li + li {
+    margin-left: 25px;
+}
+
+#post-area{
+    border-radius: 5px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    height: 180px;
+    margin-top: 56px;
+}
+
+#posts{
+    width: 54%;
+    margin: 30px auto;
+}
+
+#pfp0{
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#post-img{
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+}
+
+#text{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#name{
+    font-weight: 600;
+}
+
+#posts div{
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#post-area textarea{
+    outline: none;
+    font-size: 15px;
+    border: white;
+    resize: none;
+    width: 100%;
+    height: 80%;
+}
+
+#post{
+    width: 60px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(131, 202, 247);
+    transition:color 2s ease-in;
+    padding: 5px;
+    font-size: 15px;
+    border: 0;
+}
+
+#post:hover{
+    background-color: rgb(85, 190, 255);
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type='file'] {
+    margin-top: 5px;
+    opacity:0;
+    width: 95px;  
+}
+
+#select{
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    padding: 4px 6px 5px 30px;
+    margin-left: -115px;
+}
