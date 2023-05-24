@@ -4,4 +4,4 @@ The FakeBook project was a solo endeavor that solely focused on designing and de
 
 The project entailed careful consideration of design elements, including color schemes, typography, and layout, to ensure an aesthetically pleasing and functional template. The emphasis was on readability, accessibility, and ease of use. The code was meticulously crafted to optimize the template for different devices and screen sizes, ensuring a responsive design.
 
-- [FakeBook]([https://Final-Project-Blog.github.io/Final-Project/index.html](https://hamza-exe.github.io/Fake-Book-SocialMedia-Project/))
+- [FakeBook](https://hamza-exe.github.io/Fake-Book-SocialMedia-Project/)
